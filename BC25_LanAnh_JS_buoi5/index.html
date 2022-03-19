@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>JS buổi 5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- bài 1 -->
+    <style>
+        input {
+          width: 100%;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <h2>Bài 1 :</h2>
+              <div class="card-header">Quản lý tuyển sinh</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <h6>Điểm chuẩn :</h6>
+                  <input type="text" id="diemChuan" />
+                </div>
+                <div class="form-group">
+                  <h6>Điểm môn anh :</h6>
+                  <input type="text" id="diem1" />
+                </div>
+                <div class="form-group">
+                  <h6>Điểm môn toán :</h6>
+                  <input type="text" id="diem2" />
+                </div>
+                <div class="form-group">
+                  <h6>Điểm môn văn :</h6>
+                  <input type="text" id="diem3" />
+                </div>
+                <div class="form-group">
+                  <h6>Khu vực</h6>
+                  <select id="khuVuc">
+                    <option>Chọn khu vực</option>
+                    <option value="X">Khu vực không ưu tiên</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <h6>Đối tượng dự thi</h6>
+                  <select id="doiTuong">
+                    <option>Chọn đối tượng ưu tiên</option>
+                    <option value="0">Không ưu tiên</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <button class="btn btn-primary" id="kq2">Kết quả</button>
+              </div>
+              <div class="card-footer text-muted footer1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- bài 2 -->
+    <br>
+    <br>
+    <div class="card">
+      <h1>Bài 2 : </h1>
+        <h2>Tính tiền điện </h2>
+        <div class="card-body">
+            <label for="name">Tên: </label>
+            <input type="text" id="name">
+        </div>
+        <div class="card-body">
+            <label for="soKw">Số kw tiêu thụ : </label>
+            <input type="text" id="soKw">
+        </div>
+
+        <button class="btn btn-warning" id="btnresult">Result</button>
+        <div class="card-footer" id="result-1"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
